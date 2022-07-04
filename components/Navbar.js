@@ -7,7 +7,7 @@ function Navbar() {
     <div className=' p-4'>
       <div className='flex items-center justify-between container mx-auto'>
         <div className='relative h-12 w-32'>
-          <Image src="/images/iwya-logo.svg" alt="iwya-logo" layout='fill' objectFit="contain" />
+          <Image priority={true}src="/images/iwya-logo.svg" alt="iwya-logo" layout='fill' objectFit="contain" />
         </div>
         <ul className='md:flex items-center space-x-6 hidden'>
           <li><Link href="#digitalmarketing" className="text-base leading-6 text-gray-500 hover:text-gray-900"><a>Digital marketing</a></Link></li>

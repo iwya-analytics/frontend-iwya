@@ -33,7 +33,7 @@ export default function Home() {
         <div id="digitalmarketing" className="max-w-6xl w-full mx-auto flex-col md:flex-row flex md:space-x-12 items-center mb-12 md:mb-24 p-6 md:p-0">
           <div className="flex-1 w-full">
             <div className='relative w-full h-72 md:h-96'>
-              <Image src="/images/digitalStrategy.jpg" alt="title" layout='fill' objectFit="contain" />
+              <Image priority={true}src="/images/digitalStrategy.jpg" alt="title" layout='fill' objectFit="contain" />
             </div>
           </div>
           <div className="flex-1">
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
           <div className="flex-1 w-full">
             <div className='relative w-full h-72 md:h-96'>
-              <Image src="/images/digitalStrategy.jpg" alt="title" layout='fill' objectFit="contain" />
+              <Image priority={true}src="/images/digitalStrategy.jpg" alt="title" layout='fill' objectFit="contain" />
             </div>
           </div>
 
@@ -77,28 +77,28 @@ export default function Home() {
           <ul className='grid grid-cols-2 md:grid-cols-4 gap-y-6 items-center justify-center lg:w-2/3 mx-auto'>
             <li className='relative flex flex-col items-center'>
               <div className='relative h-40 w-40 mb-2'>
-                <Image src="/images/moha.jpg" alt='portait' layout='fill' objectFit="cover"/>
+                <Image priority={true}src="/images/moha.jpg" alt='portait' layout='fill' objectFit="cover"/>
               </div>
               <h3 className='font-serif font-medium text-lg'>Mohammed A.</h3>
               <p className='text-sm'>Founder</p>
             </li>
             <li className='relative flex flex-col items-center'>
               <div className='relative h-40 w-40 mb-2'>
-                <Image src="/images/timotei.jpg" alt='portait' layout='fill' objectFit="cover"/>
+                <Image priority={true}src="/images/timotei.jpg" alt='portait' layout='fill' objectFit="cover"/>
               </div>
               <h3 className='font-serif font-medium text-lg'>Timotei D.Z.</h3>
               <p className='text-sm'>CEO</p>
             </li>
             <li className='relative flex flex-col items-center'>
               <div className='relative h-40 w-40 mb-2'>
-                <Image src="/images/meghan.jpg" alt='portait' layout='fill' objectFit="cover"/>
+                <Image priority={true}src="/images/meghan.jpg" alt='portait' layout='fill' objectFit="cover"/>
               </div>
               <h3 className='font-serif font-medium text-lg'>Meghan L.D.</h3>
               <p className='text-sm'>Copyrighter</p>
             </li>
             <li className='relative flex flex-col items-center'>
               <div className='relative h-40 w-40 mb-2'>
-                <Image src="/images/vadim.jpg" alt='portait' layout='fill' objectFit="cover"/>
+                <Image priority={true}src="/images/vadim.jpg" alt='portait' layout='fill' objectFit="cover"/>
               </div>
               <h3 className='font-serif font-medium text-lg'>Resa D.</h3>
               <p className='text-sm'>Performance Marketer</p>
