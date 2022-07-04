@@ -6,7 +6,7 @@ function Footer() {
       <div className="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden space-y-8 sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center">
           <div className="px-5 py-2">
-              <a href="top" className="text-base leading-6 text-gray-500 hover:text-gray-900">Home</a>
+              <a href="#top" className="text-base leading-6 text-gray-500 hover:text-gray-900">Home</a>
           </div>
           <div className="px-5 py-2">
               <a href="#digitalmarketing" className="text-base leading-6 text-gray-500 hover:text-gray-900">Digital marketing</a>
