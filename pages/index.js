@@ -29,7 +29,7 @@ export default function Home() {
             <div className='flex-1'>
               <h1 className='text-3xl md:text-5xl mb-5 font-serif font-medium'>We help you build your online presence</h1>
               <p className='text-gray-100 mb-12 md:mb-24 font-light'>In this online era, your online presence is almost inevatably linked with your companies success. At IWYA we understand this, we have been helping our clients get the most out of their digital platforms for several years now. We can help you both build and expand your online presence.</p>
-              <a href="https://koalendar.com/events/Meet-with-Mohamed-Abouchama" className='px-12 py-4 bg-white text-black font-serif font-medium'>Let’s meet</a>
+              <a href="https://koalendar.com/events/Meet-with-Mohamed-Abouchama" className='px-12 py-4 bg-purple-600 text-white font-serif font-medium hover:bg-purple-700'>Let’s meet</a>
             </div>
             <div className='flex-1'>
 
@@ -108,7 +108,7 @@ export default function Home() {
                   <Image priority={true}src="/images/vadim.jpg" alt='portait' layout='fill' objectFit="cover"/>
                 </div>
                 <h3 className='font-serif font-medium text-lg'>Resa D.</h3>
-                <p className='text-sm'>Performance Marketer</p>
+                <p className='text-sm'>Internship in SEA</p>
               </li>
             </ul>
         </div>
@@ -116,7 +116,7 @@ export default function Home() {
         <div className="w-full max-w-7xl mx-auto bg-zinc-900 md:rounded-md py-10 p-12 md:p-24 text-center">
           <h2 className="font-serif text-2xl md:text-4xl font-medium mb-6 text-center text-white">Schedule a call</h2>
           <p className="text-white mb-12 md:mb-16 text-sm md:text-base">Want to see some of our work? Book a call! We will be glad to guide you through it and even throw in a free offer streamlined to your specific situation.</p>
-          <a href="https://koalendar.com/events/Meet-with-Mohamed-Abouchama" className="bg-white px-12 py-4 font-serif font-medium text-black">Book</a>
+          <a href="https://koalendar.com/events/Meet-with-Mohamed-Abouchama" className="bg-purple-600 text-white hover:bg-purple-700 px-12 py-4 font-serif font-medium">Book</a>
         </div>
         <Footer />
       </div>
