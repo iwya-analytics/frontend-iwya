@@ -25,7 +25,10 @@ function Footer() {
         <span className="bg-gray-100 py-2 px-8 rounded"> Call us on +32 2 896 38 01 </span>
           </p>
         <p className="mt-4 text-center text-base leading-6 text-gray-400">
-          &copy; 2020 Hatina A.M, All rights Reserved.
+          &copy; 2022 IWY Analytics – Uniq Concept 
+        </p>
+        <p className='text-xs text-center text-gray-500'>
+        Avenue Des Gloires Nationales 29 | 1083 Ganshoren | Numéro d’entreprise : 0732.593.092 +32491592605 | +32483704882 | Direction@hdigitalmc.com | Numéro de TVA : BE0732593092 
         </p>
       </div>
     </footer>
