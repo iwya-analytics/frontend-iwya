@@ -14,9 +14,9 @@ function Navbar() {
           <li><Link href="#webdevelopment" clLinkssNLinkme="text-base leading-6 text-gray-500 hover:text-gray-900">Web development</Link></li>
           <li><Link href="#philosophy" clLinkssNLinkme="text-base leading-6 text-gray-500 hover:text-gray-900">Philosophy</Link></li>
           <li><Link href="#team" clLinkssNLinkme="text-base leading-6 text-gray-500 hover:text-gray-900">Team</Link></li>
-          <li><button className="bg-zinc-900 px-6 py-2 text-sm font-medium text-white">Book a call</button></li>
+          <li><a href="https://koalendar.com/events/Meet-with-Mohamed-Abouchama" className="bg-zinc-900 hover:bg-zinc-800 px-6 py-2 text-sm font-medium text-white">Book a call</a></li>
         </ul>
-        <a href="https://koalendar.com/events/Meet-with-Mohamed-Abouchama" className="bg-zinc-900 px-6 py-2 text-sm font-medium text-white block md:hidden">Book a call</a>
+        <a href="https://koalendar.com/events/Meet-with-Mohamed-Abouchama" className="bg-purple-600 hover:bg-purple-700 px-6 py-2 text-sm font-medium text-white block md:hidden">Book a call</a>
       </div>
     </div>
   )
